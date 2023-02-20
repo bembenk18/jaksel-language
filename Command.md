@@ -5,38 +5,38 @@ Some command just like javascript, the only different is keyword and this langua
 
 Assign variable
 ```
-literally foo itu "hello world"
+anu foo iku "hello world"
 // let foo = "hello world"
 
-seriously foo itu 123
+seriously foo iku 123
 // const foo = 123
 ```
 
 Reassign variable
 ```
-whichis foo itu "hello world 2"
+yoiki foo iku "hello world 2"
 // foo = "hello world 2"
 ```
 
 **Boolean**
 
 ```
-literally foo itu positive vibes
+literally foo iku positive vibes
 // let foo = true
 
-literally foo itu worth it
+literally foo iku worth it
 // let foo = true
 
-literally foo itu negative vibes
+literally foo iku negative vibes
 // let foo = false
 ```
 
 ### Print / Console.log
 ```
-spill "Hello world"
+duduhno "Hello world"
 // console.log("Hello world")
 
-spill foo
+duduhno foo
 // console.log(foo)
 ```
 
@@ -44,9 +44,9 @@ spill foo
 ### Condition
 
 ```
-kalo foo itu "Hello world"
-  spill "its hello world"
-udahan
+kalo foo iku "Hello world"
+  duduhno "its hello world"
+uwes
 
 // transform to
 if(foo == "Hello world"){
@@ -56,12 +56,12 @@ if(foo == "Hello world"){
 
 ```
 kalo foo lebih gede 3
-  spill "its bigger than 3"
-perhaps foo itu 3
-  spill "foo is 3"
+  duduhno "its bigger than 3"
+perhaps foo iku 3
+  duduhno "foo is 3"
 kalogak
-  spill "its smaller than 3"
-udahan
+  duduhno "its smaller than 3"
+uwes
 
 // transform to
 if(foo > 3){
@@ -74,7 +74,7 @@ if(foo > 3){
 ```
 
 Comparison : 
-- `itu`: ' == ',
+- `iku`: ' == ',
 - `gak`: ' != ',
 - `lebih gede`: ' > ',
 - `lebih kecil`: ' < ',
@@ -87,9 +87,9 @@ Comparison :
 ```
 fomo i endup 10
   kalo i lebih gede 3
-    spill "loop ke " + i
-  udahan
-udahan
+    duduhno "loop ke " + i
+  uwes
+uwes
 
 // transform to
 for (let i = 0; i < 10; i++) {
@@ -102,8 +102,8 @@ for (let i = 0; i < 10; i++) {
 #### **`For of` loop**:
 ```
 fomo semua foo dari bar
-  spill foo
-udahan
+  duduhno foo
+uwes
 
 // transform to
 for (const foo of bar) {
@@ -123,16 +123,16 @@ skip
 ### Function
 ```
 so about my_story
-    literally umur itu 21
-    spill "Umur lu " + umur
+    literally umur iku 21
+    duduhno "Umur lu " + umur
 thats it sih
 
 call my_story
 
 so about fungsi_param_banyak a b c
-    spill "a: " + a
-    spill "b: " + b
-    spill "c: " + c
+    duduhno "a: " + a
+    duduhno "b: " + b
+    duduhno "c: " + c
 thats it sih
 
 call fungsi_param_banyak 3 4 5
@@ -141,16 +141,16 @@ call fungsi_param_banyak 3 4 5
 ### Async Function
 ```
 overthinking my_story
-    literally umur itu 21
-    spill "Umur lu " + umur
+    literally umur iku 21
+    duduhno "Umur lu " + umur
 thats it sih
 
 call my_story
 
 so about fungsi_param_banyak a b c
-    spill "a: " + a
-    spill "b: " + b
-    spill "c: " + c
+    duduhno "a: " + a
+    duduhno "b: " + b
+    duduhno "c: " + c
 thats it sih
 
 call fungsi_param_banyak 3 4 5
@@ -159,13 +159,13 @@ call fungsi_param_banyak 3 4 5
 ### Try Catch & Exception
 ```
 trust issue
-  spill "Something wrong"
+  duduhno "Something wrong"
   toxic "Error message"
 backstab
-  spill "Catch error"
+  duduhno "Catch error"
 yaudahlahya
-  spill "finish finally"
-udahan
+  duduhno "finish finally"
+uwes
 
 
 // transform to

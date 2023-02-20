@@ -1,0 +1,13 @@
+anu umur iku 21
+duduhno "Umur mu " + umur
+  lek umur luweh gede 20
+      duduhno "Kon tuek"
+  anu umurku iku umur + 10
+      duduhno "Lek aku umur e " + umurku
+  lek umurku luweh gede 30
+      duduhno "Aku luweh tuek"
+  uwes
+lekgak
+      duduhno "Ancen bocil"
+uwes
+duduhno "Uwes ah"
